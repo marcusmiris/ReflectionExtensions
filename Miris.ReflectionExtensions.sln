@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miris.ReflectionExtensions", "Miris.ReflectionExtensions\Miris.ReflectionExtensions.csproj", "{F504F7A6-B9DC-40F4-B858-E7CBDC5BBB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miris.ReflectionExtensions.Tests", "Miris.ReflectionExtensions.Tests\Miris.ReflectionExtensions.Tests.csproj", "{B2C9799C-F9F8-49F7-9FF1-DF9C2782565E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F504F7A6-B9DC-40F4-B858-E7CBDC5BBB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F504F7A6-B9DC-40F4-B858-E7CBDC5BBB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F504F7A6-B9DC-40F4-B858-E7CBDC5BBB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F504F7A6-B9DC-40F4-B858-E7CBDC5BBB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C9799C-F9F8-49F7-9FF1-DF9C2782565E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C9799C-F9F8-49F7-9FF1-DF9C2782565E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C9799C-F9F8-49F7-9FF1-DF9C2782565E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C9799C-F9F8-49F7-9FF1-DF9C2782565E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BC50A5F-C79D-4A19-89FC-AC8C500E205C}
+	EndGlobalSection
+EndGlobal
