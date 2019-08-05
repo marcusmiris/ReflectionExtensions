@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <RootNamespace>Miris.Reflection.Tests</RootNamespace>
+
+    <AssemblyName>Miris.Reflection.Tests</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

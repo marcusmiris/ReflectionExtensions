@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Miris.ReflectionExtensions.Tests
+namespace Miris.Reflection.Tests
 {
     [TestClass]
     public class FieldInfoExtensionsTests
@@ -13,7 +13,7 @@ namespace Miris.ReflectionExtensions.Tests
             //
             var obj = new MyClass(2);
             //
-            var result = fieldInfo.GetValue(obj);
+            var result = FieldInfoExtensions.GetValue<int>(fieldInfo, obj);
 
             Assert.AreEqual(2, result);
         }

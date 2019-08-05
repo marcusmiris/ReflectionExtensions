@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using static Miris.Reflection.ReflectionSpecifications;
 using static System.Reflection.BindingFlags;
 
-namespace Miris.ReflectionExtensions
+namespace Miris.Reflection
 {
     [DebuggerStepThrough]
     public static class ObjectExtensions
@@ -131,8 +133,19 @@ namespace Miris.ReflectionExtensions
 
             methodInfo.Invoke(candidate, arguments);
         }
-        
+
         #endregion
+
+        public static IEnumerable<PropertyInfo> GetProperties<TObject>(
+            this TObject @object,
+            params ISpecification<PropertyInfo>[] specifications)
+        {
+            if (@object == null) throw new ArgumentNullException(nameof(@object));
+
+            var type = (@object as Type) ?? @object.GetType();
+
+            return TypeExtensions.GetProperties(type, specifications);
+        }
 
     }
 }

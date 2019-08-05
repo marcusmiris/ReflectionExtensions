@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Miris.ReflectionExtensions.Tests
+namespace Miris.Reflection.Tests
 {
     [TestClass]
     public class ObjectExtensions

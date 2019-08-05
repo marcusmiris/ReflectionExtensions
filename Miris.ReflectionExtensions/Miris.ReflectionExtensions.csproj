@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
     <Authors>Marcus Miris &lt;marcusmiris@reinodedeus.org&gt;</Authors>
+    <RootNamespace>Miris.Reflection</RootNamespace>
+    <AssemblyName>Miris.Reflection</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.0'">

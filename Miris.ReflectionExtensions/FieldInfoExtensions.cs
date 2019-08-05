@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Miris.ReflectionExtensions
+namespace Miris.Reflection
 {
     public static class FieldInfoExtensions
     {
